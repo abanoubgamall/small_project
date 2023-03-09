@@ -1,0 +1,256 @@
+
+body
+{
+    font-family: "segoe ui light";
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.slider
+{
+	width: 70%;
+	height: 500px;
+	margin: 50px auto;
+	animation-name: hambozo;
+	background-size: 100% 100%;
+	animation-duration: 10s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+@keyframes hambozo
+{
+	0%{background-image: url(images/bg2.jpg)}
+	30%{background-image: url(images/bg3.jpg)}
+	80%{background-image: url(images/bg4.jpg)}
+	100%{background-image: url(images/bg.jpg)}
+}
+
+
+.home
+{
+    height: 630px;
+    background-image: url(images/shutterstock_277750193.jpg);
+    background-size: 100% 100%;
+}
+.home .caption
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home p
+{
+    font-size: 230%;
+font-family: 'Dancing Script', cursive;
+
+}
+.home .btns
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.home .btns button
+{
+    padding:  15px 28px;
+    background-color: #c1ab84;
+    border: none;
+   
+}
+.home .btns .btn-visit
+{
+    background-color: #fff;
+}
+.nav ul
+{
+    background-color:rgba(0,0,0,0.5);
+    list-style-type:none;
+    padding-left: 0;
+    overflow: hidden;
+}
+.nav ul li
+{
+    padding: 10px;
+    float: right;
+    padding-top: 20px;
+}
+.nav ul li a
+{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+.nav img
+{
+    height: 50px;
+}
+.nav .logo
+{
+    float: left;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+.discover
+{
+    overflow: hidden;
+}
+.discover .chef
+{
+    background-color: yellow;
+    width: 40%;
+}
+.discover .chef img
+{
+    width: 100%;
+    float: left;
+}
+.discover .discover-chef
+{
+    padding: 198px 0px;
+    background-color: #fff;
+    width: 60%;
+    float: left;
+    text-align: center;
+    
+}
+.discover .discover-chef span
+{
+    color: #f2ce08; 
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+.discover .discover-chef p
+{
+    color: #868686;
+    padding: 40px;
+    font-size: 18px;
+}
+.discover .discover-chef button
+{
+    border: 2px solid #231f20;
+    background-color: transparent;
+    padding: 15px 20px;
+}
+.out-door
+{
+    height: 350px;
+    background-image: url(images/bgs.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.meals
+{
+    padding: 50px 20px;
+    overflow: hidden;
+
+}
+.meals .meal
+{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.meals .meal img
+{
+    border-radius: 50%;
+}
+.meals .meal h2 ,.meals .meal p
+{
+    padding: 20px;
+}
+.meals .meal p
+{
+    color: #868686;
+}
+.brdr
+{
+    width: 25%;
+    height: 2px;
+    background-color: #ccc;
+    margin: auto;
+}
+.clr
+{
+    clear: both;
+}
+
+
+
+
+.member
+{
+	border: solid 4px #fff;
+	width: 24%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.member img
+{
+	width: 100%;
+	transition: all 1s;
+	transition-delay: 1s;
+}
+.member .caption
+{
+	color: #fff;
+	text-align: center;
+	background-color: rgb(42,63,85,0.7);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0%;
+	left: 0;
+	opacity: 0;
+	transition: all 1s ;
+}
+.member:hover img
+{
+	transform: scale(1.2)
+}
+.member:hover .caption
+{
+	opacity: 1;
+	transform: rotate(360deg);
+
+}
+.member h2
+{
+	background-color: #2A3F55;
+	padding: 10px;
+	position: relative;
+	transition: all 1s;
+	transition-delay: 2s;
+	left: 100%;	
+}
+.member:hover h2
+{
+	left: 0%;	
+	
+}
+
+.member p
+{
+	padding: 20px;
+	font-size: 18px;
+	position: relative;
+	transition: all 1s;
+	transition-delay: 2.2s;
+	left: 100%;	
+}
+.member:hover p
+{
+	left: 0%;	
+	
+}
